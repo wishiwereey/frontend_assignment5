@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Profile</title>
+</head>
+<body>
+    <div id="profcard">
+        <h2>My profile</h2>
+        <p>Name: <span id="nameText"></span></p>
+        <p>Birth year: <span id="yearText"></span></p>
+        <p>Is developer: <span id="devText"></span></p>
+        <p>Hobbies: <span id="hobbiesText"></span></p>
+        <p>Age: <span id="ageText"></span></p>
+        <p>Months old: <span id="monthsText"></span></p>
+        <p>Hobbies count: <span id="countText"></span></p>
+    </div>
+    <div>
+        <h2>Fill in the form</h2>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" id="name" placeholder="Type your name">
+        <br><br>
+        <label for="birth">Birth Year</label>
+        <br>
+        <input type="number" id="birth" placeholder="Enter year">
+        <br><br>
+        <button type="submit" id="profileBtn">Create/Update Profile</button>
+        <p id="message"></p>
+    </div>
+    <div>
+        <h2>My tasks</h2>
+        <input type="text" id="itemInput" placeholder="New task">
+        <br><br>
+        <button id="addBtn">Add Item</button>
+        <button id="removeBtn">Remove Item</button>
+        <ul id="taskList">
+            <li>Do an assignment</li>
+            <li>Clean my room</li>
+            <li>Wash dishes</li>
+        </ul>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

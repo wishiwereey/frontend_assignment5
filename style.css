@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(241, 225, 228);
+}
+h2 {
+    color: rgb(56, 56, 86);
+}
+p{
+    font-size: 17px;
+}
+.active {
+    border-radius: 5px;
+    background-color: rgb(187, 216, 227);
+}
+input {
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid rgb(218, 216, 211);
+    border-radius: 5px;
+}
+button {
+    padding: 8px 14px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(125, 158, 188);
+    color: white;
+}
+#removeBtn {
+    background-color: rgb(208, 144, 144);
+}
+li {
+    padding: 6px;
+    font-size: 17px;
+}
