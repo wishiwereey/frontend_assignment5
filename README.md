@@ -6,25 +6,30 @@ In this assignment I created a simple web page using html, css and java script. 
 
 ## Task 1
 I created a const object with string, number, boolean and array data types. The object and type of each property are printed to the console with typeof.
+
 ![](screenshots/Task1_page.png)
 ![](screenshots/Task1_js.png)
 
 ## Task 2
 I performed calculations using arithmetic operators. Results are displayed in the console with console.log() and on the page with textContent.
+
 ![](screenshots/Task2_page.png)
 ![](screenshots/Task2_js.png)
 
 ## Task 3
 I made inputs for name and birth year and "Create/Update Profile" button.
+
 ![](screenshots/Task3.png)
 
 ## Task 4
 I added event listener to the button. It reads the input values, checks that the fields are not empty, updates the userProfile object and shows the new data on the page. 
+
 ![](screenshots/Task4_before.png)
 ![](screenshots/Task4_after.png)
 
 ## Task 5
 I created an unordered list with my tasks. When the user types a new task and clicks "Add Item", a new element is added to the end of the list using. When the user clicks "Remove Item", the script finds all list elements with querySelectorAll, takes the last one and removes it with.
+
 ![](screenshots/Task5.png)
 ![](screenshots/Task5_add.png)
 ![](screenshots/Task5_remove.png)
